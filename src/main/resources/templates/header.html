@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>导航栏</title>
+</head>
+<body>
+	<!-- 导航 -->  
+	<div th:fragment="navigationBar" >  
+		<table>  
+			<tr>  
+				<td><a th:href="@{/userlist}">首页</a></td>  
+				<td><a th:href="@{/userlist}">关于用户</a></td> 
+			</tr>  
+		</table>  
+	</div> 
+</body>
+</html>
